@@ -4,4 +4,5 @@ int main(){
     char ch;
     cin>>ch;
     cout<<ch;
+    cout<<(int)ch;
 }
