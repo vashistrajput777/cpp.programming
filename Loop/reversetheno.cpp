@@ -12,6 +12,7 @@ int main(){
         r+=ld;
         n = n/10;
         count++;
+        cout<<r<<" "<<n<<" "<<count<<endl;                  
     }
     cout<<count;
 }
