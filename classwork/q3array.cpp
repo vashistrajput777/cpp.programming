@@ -54,6 +54,6 @@ int main(){
     inv.display_items();
     inv.remove_item(1);
     inv.display_items();
-    inv.remove_item(5);
-    return 0;                               
+    inv.remove_item(5); // Invalid index
+    return 0;
 }
