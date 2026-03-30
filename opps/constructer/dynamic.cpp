@@ -8,13 +8,10 @@ cricketer(string n, int r){
     name = n;
     runs = r;
 }
-void display(){
-    cout<<"Name: "<<this->name<<endl;
-    cout<<"Runs: "<<this->runs<<endl;
-}
 };
 int main(){
-    cricketer c1("virat", 12000);
-    c1.display();
-    return 0;    
+    cricketer c1("Virat", 12000);
+    cricketer* c2= new cricketer("Rohit", 9000);
+    cout<<c1.name<<" "<<c1.runs<<endl;
+    cout<<c2->name<<" "<<c2->runs<<endl;
 }
